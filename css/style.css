@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One|Russo+One|Staatliches&display=swap");
+body {
+  background: url(../img/background.png);
+  background-size: cover;
+  margin: 0vw;
+  background-repeat: no-repeat;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+.logo {
+  background: #3ca918;
+  position: absolute;
+  width: 10vw;
+  height: 5vw;
+  left: 8vw;
+  text-align: center;
+  color: #fff;
+  line-height: 4.75vw;
+  font-size: 28px;
+  font-family: "Hammersmith One";
+}
+
+.backguy {
+  position: absolute;
+  left: 55vw;
+  top: 3vw;
+  width: 26vw;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: 24%;
+  margin-top: 30px;
+}
+
+.menuitem {
+  color: #fff;
+  margin: 28px;
+  font-family: "Hammersmith One";
+  cursor: pointer;
+  border-bottom: 0.1vw solid transparent;
+  font-size: 1rem;
+}
+
+.maintext {
+  position: absolute;
+  width: 40vw;
+  height: 22vw;
+  left: 8vw;
+  top: 12vw;
+}
+
+.title {
+  font-family: "Staatliches";
+  color: #fff;
+  font-size: 4vw;
+  letter-spacing: 0.1vw;
+  line-height: 4vw;
+}
+
+.description {
+  color: #fff;
+  font-family: "Hammersmith One";
+  letter-spacing: 0.1vw;
+  line-height: 2vw;
+  font-size: 14px;
+}
+
+.button1 {
+  color: #fff;
+  position: absolute;
+  font-size: 1vw;
+  font-family: "Staatliches";
+  background: #8944ff;
+  padding: 1vw;
+  width: 8vw;
+  text-align: center;
+  height: 1vw;
+  line-height: 1.1vw;
+  top: 14vw;
+  cursor: pointer;
+}
+
+.bar {
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.sec1 {
+  float: left;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0vw;
+  width: 25vw;
+  height: 100%;
+  box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.3);
+}
+
+.sec1time {
+  color: #3ca918;
+  font-size: 2vw;
+  position: absolute;
+  left: 2vw;
+  top: 2vw;
+  font-family: "Hammersmith One";
+}
+
+.sec1title {
+  color: #fff;
+  font-size: 28px;
+  position: absolute;
+  left: 2vw;
+  top: 5vw;
+  font-family: "Hammersmith One";
+}
+
+.sec1subtitle {
+  color: #a0a0a052;
+  font-size: 14px;
+  position: absolute;
+  left: 2vw;
+  top: 7vw;
+  width: 11vw;
+  line-height: 28px;
+  font-family: "arial";
+}
+
+.sec2 {
+  float: left;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 25vw;
+  width: 25vw;
+  height: 100%;
+  box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.3);
+}
+
+.sectitle {
+  color: #ff7100;
+  font-family: "Hammersmith One";
+  font-size: 16px;
+}
+
+.sectitlesocials {
+  color: #ffffff;
+  font-family: "Hammersmith One";
+  font-size: 16px;
+}
+
+.sectitlediscord {
+  color: #5865f2;
+  font-family: "Hammersmith One";
+  font-size: 16px;
+}
+
+.secsubtitle {
+  color: #ff7100;
+  font-family: "Staatliches";
+  font-size: 28px;
+}
+.secsubtitlediscord {
+  color: #5865f2;
+  font-family: "Staatliches";
+  font-size: 28px;
+}
+.secslots {
+  color: #b3b3b3d9;
+  font-size: 16px;
+  font-family: "Arial";
+}
+.tiktok {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Arial";
+}
+.tiktokd {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Arial";
+}
+
+.tiktokc {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Arial";
+}
+
+.secip {
+  color: #3ca918;
+  font-family: "Staatliches";
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.secbarfull {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 11.25vw;
+  width: 21vw;
+  height: 0.25vw;
+  left: 2vw;
+}
+
+.secinbar {
+  width: 50%;
+  background: #3ca918;
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  height: 100%;
+}
+
+.secbadge {
+  background: #ff7100;
+  width: 84px;
+  height: 34px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Hammersmith One";
+  line-height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secbadgediscord {
+  background: #5865f2;
+  width: 84px;
+  height: 34px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Hammersmith One";
+  line-height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec3 {
+  float: left;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 50vw;
+  width: 25vw;
+  height: 100%;
+  box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.3);
+}
+
+.sec4 {
+  float: left;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 75vw;
+  width: 25vw;
+  height: 100%;
+  box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.3);
+}
+
+.green {
+  color: #3ca918 !important;
+}
+
+.pink {
+  color: #c21f4a !important;
+}
+
+.blue {
+  color: #1f2ac2 !important;
+}
+
+.greenbg {
+  background: #3ca918 !important;
+}
+
+.pinkbg {
+  background: #c21f4a !important;
+}
+
+.bluebg {
+  background: #1f2ac2 !important;
+}
+
+.grey1 {
+  color: #ffffff3d;
+  font-size: 1vw;
+  position: absolute;
+  top: 9.6vw;
+  left: 8.5vw;
+  cursor: pointer;
+}
+
+.grey2 {
+  color: #ffffff3d;
+  font-size: 1vw;
+  position: absolute;
+  top: 9.6vw;
+  left: 8.5vw;
+  cursor: pointer;
+}
+
+.grey3 {
+  color: #ffffff3d;
+  font-size: 1vw;
+  position: absolute;
+  top: 9.6vw;
+  left: 8.5vw;
+  cursor: pointer;
+}
+
+.sec {
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 390px;
+  width: 100%;
+  height: 215px;
+  box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.3);
+  display: flex;
+  padding: 1.4rem 2rem;
+}
+
+.sec > div {
+  flex-grow: 1;
+}
+
+.sec a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 980px) {
+  .menu {
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .full-page {
+    max-height: unset;
+  }
+  .sec {
+    height: 132px;
+    margin-bottom: 1rem;
+  }
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media screen and (max-width: 620px) {
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 290px;
+    height: 100%;
+    margin: unset;
+    background: black;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    transition: all 250ms;
+    transform: translateX(-100%);
+  }
+
+  .menu.active {
+    transform: translateX(0);
+  }
+
+  .menuitem {
+    width: fit-content;
+  }
+
+  .menu-btn {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+    z-index: 99;
+  }
+  .menu-btn div {
+    background-color: #8944ff;
+    height: 3px;
+    width: 18px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .sec {
+    width: 70%;
+    flex-direction: column;
+  }
+}
+
+.admin-box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 20px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+    max-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.admin-box .sectitle {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #A318FF;
+}
+
+.admin-box .secsubtitle {
+    margin: 6px 0;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.admin-box .secbadge {
+    margin-top: 10px;
+    display: inline-block;
+    background: #A318FF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s ease-in-out;
+}
+
+.admin-box .secbadge:hover {
+    background: #8411cc;
+}
+
