@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/bddd10b4ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>About - PPRP</title>
+    <link href="css/about.css" rel="stylesheet" />
+    <link href="css/all.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0dfdec2c7e.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="menu-btn">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul class="menu">
+      <li class="menuitem" onclick="openLink('start')">Home</li>
+      <li
+        class="menuitem"
+        onclick="openLink('about')"
+        style="border-color: #a318ff"
+      >
+        About
+      </li>
+      <li class="menuitem" onclick="openLink('rules')">
+        Rules&nbsp;<i class="fas fa-external-link fa-xs"></i>
+      </li>
+      <li class="menuitem" onclick="openLink('contact')">
+        Contact&nbsp;<i class="fas fa-external-link fa-xs"></i>
+      </li>
+      <li class="menuitem" onclick="openLink('donate')">
+        Donate&nbsp;<i class="fas fa-external-link fa-xs"></i>
+      </li>
+    </ul>
+
+    <div class="maintext">
+      <div class="intext">
+        <div class="title">Semi-Serious Roleplay</div>
+
+        <div class="description">
+Picture Perfect Reloaded offers an immersive and dynamic semi-serious roleplaying experience where players can seamlessly blend enjoyment with realism. With an emphasis on detail and narrative depth, players can delve into richly crafted worlds, whether it's a bustling cityscape, a fantastical realm, or a historical setting. The semi-serious approach allows for a balance between lighthearted fun and engaging storytelling, enabling participants to explore complex characters and scenarios while still enjoying moments of spontaneity and humor. Through collaborative storytelling and inventive problem-solving, players can shape compelling narratives and develop meaningful relationships with their fellow roleplayers. Whether you're a seasoned veteran or a newcomer to the world of roleplaying, Picture Perfect Reloaded offers a vibrant community where creativity knows no bounds.
+        </div>
+
+        <div class="title2">Server Development</div>
+
+        <div class="description2">
+Picture Perfect Reloaded has flourished under the dedicated efforts from Johnny Sins, who infused their work with boundless love and creativity. Through tireless dedication and a shared vision, he has meticulously crafted every aspect of the platform's development, from its intricate mechanics to its captivating storytelling features. Drawing from their diverse backgrounds and expertise, Johnny Sins has cultivated a space where imagination thrives and players can immerse themselves in vibrant worlds of their own making. Their commitment to excellence is evident in every detail, as they continually refine and expand the platform to ensure an unparalleled roleplaying experience for all who venture into its realms. With their unwavering passion guiding the way, Picture Perfect Reloaded continues to evolve, enchanting players with its endless possibilities and boundless charm.
+        </div>
+      </div>
+    </div>
+
+    <div class="bar">
+      <div class="about-title1" onclick="aboutSlide(1)">Semi-Serious Roleplay</div>
+
+      <div class="about-title2" onclick="aboutSlide(2)">Server Development</div>
+    </div>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const menu = document.querySelector(".menu");
+
+      menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
